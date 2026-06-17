@@ -2,6 +2,12 @@
 
 > Public organization profile for Netspeedy infrastructure, automation and platform engineering.
 
+[![Netspeedy](https://img.shields.io/badge/Netspeedy-public%20profile-116EFF?style=flat-square)](https://github.com/netspeedy)
+[![Infrastructure](https://img.shields.io/badge/infrastructure-Linux%20%7C%20networking%20%7C%20DNS-2EA043?style=flat-square)](#netspeedy)
+[![Automation](https://img.shields.io/badge/automation-Ansible%20%7C%20GitHub%20Actions-A81D33?style=flat-square)](#netspeedy)
+[![Platform](https://img.shields.io/badge/platform-Kubernetes%20%7C%20GitOps-8250DF?style=flat-square)](#kubertech)
+[![KuberTech](https://img.shields.io/badge/KuberTech-platform%20slice-0969DA?style=flat-square)](https://kubertech.io)
+
 Netspeedy is Simon Oakes' public infrastructure and platform engineering
 umbrella. It brings together practical work across Linux systems, networking,
 Ansible, Kubernetes, GitOps, CI/CD, DNS, certificates, self-hosted services and
