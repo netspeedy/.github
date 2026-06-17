@@ -1,5 +1,9 @@
 # Netspeedy GitHub Profile
 
+<p align="center">
+  <img src="profile/assets/netspeedy-banner.svg" alt="Netspeedy infrastructure engineering banner" />
+</p>
+
 > Public organization profile for Netspeedy infrastructure, automation and platform engineering.
 
 [![Netspeedy](https://img.shields.io/badge/Netspeedy-public%20profile-116EFF?style=flat-square)](https://github.com/netspeedy)
