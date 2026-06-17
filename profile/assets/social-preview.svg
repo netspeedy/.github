@@ -51,7 +51,7 @@
     <text x="104" y="340" class="sans" fill="#f8fafc" font-size="88" font-weight="850" letter-spacing="-2">Netspeedy</text>
     <text x="108" y="404" class="sans" fill="#e2e8f0" font-size="40" font-weight="650">Infrastructure, automation</text>
     <text x="108" y="456" class="sans" fill="#e2e8f0" font-size="40" font-weight="650">and platform engineering</text>
-    <text x="108" y="522" class="sans" fill="#cbd5e1" font-size="28">Linux / Ansible / Kubernetes / GitOps / DNS / networking</text>
+    <text x="108" y="522" class="sans" fill="#cbd5e1" font-size="28" textLength="697" lengthAdjust="spacingAndGlyphs">Linux / Ansible / Kubernetes / GitOps / DNS / networking</text>
 
     <rect x="104" y="548" width="709" height="4" rx="2" fill="url(#accent)" />
 
