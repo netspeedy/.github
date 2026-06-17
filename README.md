@@ -47,3 +47,4 @@ broader infrastructure and automation identity.
 | --- | --- |
 | `profile/README.md` | Public GitHub organization profile rendered by GitHub. |
 | `profile/assets/netspeedy-banner.svg` | Self-contained public organization banner. |
+| `profile/assets/social-preview.png` | Repository social preview image for GitHub sharing. |
