@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Netspeedy</title>
+  <desc id="desc">Animated Netspeedy banner showing infrastructure, automation, networking, GitOps, DNS, certificates and recovery.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#020617" />
+      <stop offset="0.48" stop-color="#071426" />
+      <stop offset="1" stop-color="#111827" />
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#020617" />
+      <stop offset="0.55" stop-color="#07111f" />
+      <stop offset="1" stop-color="#101827" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38bdf8" />
+      <stop offset="0.5" stop-color="#8b5cf6" />
+      <stop offset="1" stop-color="#f97316" />
+    </linearGradient>
+    <linearGradient id="blueLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38bdf8" stop-opacity="0" />
+      <stop offset="0.18" stop-color="#38bdf8" stop-opacity="0.8" />
+      <stop offset="0.82" stop-color="#38bdf8" stop-opacity="0.8" />
+      <stop offset="1" stop-color="#38bdf8" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="orangeLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f97316" stop-opacity="0" />
+      <stop offset="0.2" stop-color="#f97316" stop-opacity="0.72" />
+      <stop offset="0.82" stop-color="#f97316" stop-opacity="0.72" />
+      <stop offset="1" stop-color="#f97316" stop-opacity="0" />
+    </linearGradient>
+    <radialGradient id="glowA" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#38bdf8" stop-opacity="0.36" />
+      <stop offset="1" stop-color="#38bdf8" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="glowB" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#8b5cf6" stop-opacity="0.26" />
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="glowC" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#f97316" stop-opacity="0.22" />
+      <stop offset="1" stop-color="#f97316" stop-opacity="0" />
+    </radialGradient>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M 42 0 L 0 0 0 42" fill="none" stroke="#94a3b8" stroke-width="0.7" opacity="0.14" />
+    </pattern>
+    <filter id="softGlow" x="-45%" y="-45%" width="190%" height="190%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <filter id="shadow" x="-12%" y="-16%" width="124%" height="138%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000000" flood-opacity="0.36" />
+    </filter>
+    <style>
+      .eyebrow { font: 800 15px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #93c5fd; letter-spacing: 3.2px; }
+      .title { font: 850 72px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #f8fafc; letter-spacing: -1px; }
+      .subtitle { font: 650 25px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #cbd5e1; letter-spacing: 0; }
+      .small { font: 520 15px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; fill: #cbd5e1; letter-spacing: 0; }
+      .panelTitle { font: 780 28px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #f8fafc; letter-spacing: -0.3px; }
+      .panelSub { font: 560 14px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #cbd5e1; letter-spacing: 0; }
+      .pillarTitle { font: 760 15px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #f8fafc; letter-spacing: 0; }
+      .pillarText { font: 540 12px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #94a3b8; letter-spacing: 0; }
+      .draw { stroke-dasharray: 12 14; animation: dash 8s linear infinite; }
+      .drawSlow { stroke-dasharray: 7 13; animation: dash 10s linear infinite reverse; }
+      .pulse { animation: pulse 3.8s ease-in-out infinite; transform-origin: center; }
+      .pulse2 { animation: pulse 4.6s ease-in-out infinite; transform-origin: center; }
+      @keyframes dash { to { stroke-dashoffset: -260; } }
+      @keyframes pulse { 0%, 100% { opacity: 0.5; } 50% { opacity: 1; } }
+    </style>
+  </defs>
+
+  <rect width="1200" height="360" rx="28" fill="url(#bg)" />
+  <rect width="1200" height="360" rx="28" fill="url(#grid)" />
+  <circle cx="150" cy="74" r="188" fill="url(#glowA)" />
+  <circle cx="782" cy="92" r="250" fill="url(#glowB)" />
+  <circle cx="1042" cy="314" r="228" fill="url(#glowC)" />
+  <path d="M0 292 C170 252 252 326 430 292 C604 260 716 224 890 264 C1036 296 1102 244 1200 226 L1200 360 L0 360 Z" fill="url(#accent)" opacity="0.13" />
+
+  <g transform="translate(66 70)">
+    <rect x="0" y="0" width="195" height="32" rx="16" fill="#0f766e" opacity="0.24" />
+    <text x="19" y="21" class="eyebrow">INFRA STACK</text>
+    <text x="0" y="104" class="title">Netspeedy</text>
+    <text x="4" y="145" class="subtitle">Infrastructure, automation and platform operations.</text>
+    <rect x="4" y="172" width="535" height="3" rx="2" fill="url(#accent)" />
+    <text x="5" y="211" class="small">Linux | Ansible | Kubernetes | DNS | networking | recovery</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="690" y="58" width="456" height="246" rx="24" fill="url(#panel)" opacity="0.68" stroke="#334155" stroke-opacity="0.72" />
+  </g>
+
+  <text x="720" y="92" class="panelTitle">Engineered To Operate</text>
+  <text x="722" y="118" class="panelSub">Repeatable change, visible state and practical recovery.</text>
+  <rect x="722" y="132" width="376" height="3" rx="2" fill="url(#accent)" opacity="0.9" />
+
+  <g opacity="0.52" filter="url(#softGlow)">
+    <path id="pillarTop" class="draw" d="M902 175 H934" fill="none" stroke="#38bdf8" stroke-width="2" />
+    <path id="pillarLeft" class="drawSlow" d="M810 205 V221" fill="none" stroke="#34d399" stroke-width="2" />
+    <path id="pillarBottom" class="draw" d="M902 251 H934" fill="none" stroke="#fb923c" stroke-width="2" />
+    <path id="pillarRight" class="drawSlow" d="M1026 205 V221" fill="none" stroke="#a78bfa" stroke-width="2" />
+    <circle r="3" fill="#38bdf8">
+      <animateMotion dur="2.8s" repeatCount="indefinite">
+        <mpath href="#pillarTop" xlink:href="#pillarTop" />
+      </animateMotion>
+    </circle>
+    <circle r="3" fill="#34d399">
+      <animateMotion dur="3.1s" repeatCount="indefinite">
+        <mpath href="#pillarLeft" xlink:href="#pillarLeft" />
+      </animateMotion>
+    </circle>
+    <circle r="3" fill="#fb923c">
+      <animateMotion dur="3s" repeatCount="indefinite">
+        <mpath href="#pillarBottom" xlink:href="#pillarBottom" />
+      </animateMotion>
+    </circle>
+    <circle r="3" fill="#a78bfa">
+      <animateMotion dur="3.2s" repeatCount="indefinite">
+        <mpath href="#pillarRight" xlink:href="#pillarRight" />
+      </animateMotion>
+    </circle>
+  </g>
+
+  <g>
+    <rect x="720" y="146" width="181" height="58" rx="16" fill="#082f49" fill-opacity="0.21" stroke="#38bdf8" stroke-opacity="0.28" />
+    <circle class="pulse" cx="744" cy="168" r="4" fill="#38bdf8" />
+    <text x="760" y="172" class="pillarTitle">Repeatable</text>
+    <text x="760" y="190" class="pillarText">reviewed change</text>
+
+    <rect x="935" y="146" width="181" height="58" rx="16" fill="#2e1065" fill-opacity="0.2" stroke="#a78bfa" stroke-opacity="0.28" />
+    <circle class="pulse2" cx="959" cy="168" r="4" fill="#a78bfa" />
+    <text x="975" y="172" class="pillarTitle">Observable</text>
+    <text x="975" y="190" class="pillarText">clear system state</text>
+
+    <rect x="720" y="222" width="181" height="58" rx="16" fill="#052e2b" fill-opacity="0.23" stroke="#34d399" stroke-opacity="0.28" />
+    <circle class="pulse" cx="744" cy="244" r="4" fill="#34d399" />
+    <text x="760" y="248" class="pillarTitle">Recoverable</text>
+    <text x="760" y="266" class="pillarText">rollback stays close</text>
+
+    <rect x="935" y="222" width="181" height="58" rx="16" fill="#431407" fill-opacity="0.23" stroke="#fb923c" stroke-opacity="0.28" />
+    <circle class="pulse2" cx="959" cy="244" r="4" fill="#fb923c" />
+    <text x="975" y="248" class="pillarTitle">Automated</text>
+    <text x="975" y="266" class="pillarText">less manual drift</text>
+  </g>
+</svg>
