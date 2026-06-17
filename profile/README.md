@@ -54,8 +54,6 @@ Most operational repositories and service details stay private by design. This p
 | [`blackhole-threats`](https://github.com/soakes/blackhole-threats) | Go / GoBGP / Linux | Network defence automation using controlled BGP blackhole signalling from threat feeds. |
 | [`s3mirror`](https://github.com/soakes/s3mirror) | Python / S3 | Object storage mirroring with parallel transfer, structured logging and disaster-recovery workflows. |
 | [`s3ctl`](https://github.com/soakes/s3ctl) | Go / S3 / IAM | Operator-focused S3 tooling for bucket provisioning, scoped credentials and batch operations. |
-| [`portfolio`](https://github.com/soakes/portfolio) | TanStack Start / React / Cloudflare Pages | Public KuberTech portfolio showing production and development platform narratives from one codebase. |
-| [`cv`](https://github.com/soakes/cv) | Python / TanStack Start / GitHub Actions | Structured CV publishing pipeline with PDF, ATS, LinkedIn and public website outputs. |
 
 ## How We Work
 
