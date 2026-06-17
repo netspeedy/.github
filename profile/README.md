@@ -16,7 +16,7 @@ Netspeedy is a long-running infrastructure engineering environment covering Linu
 
 The point is practical engineering, not isolated demo content. The work behind Netspeedy is built around the same habits expected in production environments: clear ownership, repeatable change, source-controlled intent, careful automation, observable behaviour and recovery paths that are understood before they are needed.
 
-Most operational repositories and service details stay private by design. This public profile shows the engineering approach, selected public work and the parts of the platform that are safe to describe openly.
+This public profile focuses on the engineering approach, selected public work and platform story that represent Netspeedy externally.
 
 ## Operational Signals
 
@@ -66,13 +66,13 @@ Good infrastructure work is not just about deploying things. It is about making 
 | Keep changes reviewable | Prefer narrow diffs, clear ownership and small blast radius over broad operational churn. |
 | Design for recovery | Backups, rollback, restore and failure modes need attention before production pressure arrives. |
 | Document the surprising | The obvious parts can stay simple. The sharp edges should be written down. |
-| Keep public detail safe | Explain the operating model without publishing private endpoints, credentials or sensitive topology. |
+| Communicate clearly | Explain the operating model in public terms, focusing on principles, outcomes and maintainable engineering. |
 
 ## KuberTech
 
 KuberTech is the Kubernetes and GitOps platform part of Netspeedy.
 
-It exists as a public, safe-to-share view into how Kubernetes workloads, platform services, GitOps workflows, environment separation and promotion paths are handled. It does not represent the whole of Netspeedy; it is one part of a wider infrastructure and automation environment.
+It shows how Kubernetes workloads, platform services, GitOps workflows, environment separation and promotion paths are handled. It does not represent the whole of Netspeedy; it is one part of a wider infrastructure and automation environment.
 
 Start here if you specifically want the Kubernetes platform view:
 
