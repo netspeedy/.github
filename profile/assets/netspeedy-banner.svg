@@ -84,8 +84,8 @@
     <text x="19" y="21" class="eyebrow">INFRA STACK</text>
     <text x="0" y="104" class="title">Netspeedy</text>
     <text x="4" y="145" class="subtitle">Infrastructure, automation and platform operations.</text>
-    <rect x="4" y="172" width="384" height="3" rx="2" fill="url(#accent)" />
-    <text x="5" y="211" class="small" textLength="376" lengthAdjust="spacingAndGlyphs">Linux | Ansible | Kubernetes | DNS | networking | recovery</text>
+    <rect x="4" y="172" width="332" height="3" rx="2" fill="url(#accent)" />
+    <text x="5" y="211" class="small">Linux | Ansible | Kubernetes | DNS | networking | recovery</text>
   </g>
 
   <g filter="url(#shadow)">
