@@ -55,6 +55,8 @@ This public profile focuses on the engineering approach, selected public work an
 | [`s3mirror`](https://github.com/soakes/s3mirror) | Python / S3 | Object storage mirroring with parallel transfer, structured logging and disaster-recovery workflows. |
 | [`s3ctl`](https://github.com/netspeedy/s3ctl) | Go / S3 / IAM | Operator-focused S3 tooling for bucket provisioning, scoped credentials and batch operations. |
 | [`homebrew-s3ctl`](https://github.com/netspeedy/homebrew-s3ctl) | Ruby / Homebrew | Homebrew tap for installing `s3ctl` on macOS and Linux. |
+| [`zquota`](https://github.com/netspeedy/zquota) | Python / CLI / Z.ai | Small terminal CLI for Z.ai quota usage and exact reset windows. |
+| [`homebrew-zquota`](https://github.com/netspeedy/homebrew-zquota) | Ruby / Homebrew | Homebrew tap for installing `zquota` on macOS and Linux. |
 
 ## How We Work
 
