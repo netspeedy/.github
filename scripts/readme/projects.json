@@ -1,0 +1,68 @@
+{
+  "projects": [
+    {
+      "name": "blackhole-threats",
+      "repo": "netspeedy/blackhole-threats",
+      "kicker": "NETWORK DEFENCE AUTOMATION",
+      "accent": "#FF4D63",
+      "lang": ["Go", "go", "#00add8"],
+      "body": "Turns threat feeds into BGP blackhole routes through GoBGP, and keeps a feed's last good routes when it fails.",
+      "facts": [["BUILT IN", "Go, with GoBGP"], ["SHIPS AS", "Signed APT repository and a GHCR image"]],
+      "install": ["sudo apt install blackhole-threats", "sudo systemctl enable --now blackhole-threats"]
+    },
+    {
+      "name": "s3ctl",
+      "repo": "netspeedy/s3ctl",
+      "kicker": "S3 PROVISIONING",
+      "accent": "#4BD8FF",
+      "lang": ["Go", "go", "#00add8"],
+      "body": "Provisions S3 buckets, each with its own IAM user and key scoped to that bucket alone, and plans every change first.",
+      "facts": [["BUILT IN", "Go"], ["SHIPS AS", "Homebrew tap, signed APT repository and GHCR"]],
+      "install": ["brew tap netspeedy/s3ctl", "brew install s3ctl"],
+      "tap": "netspeedy/homebrew-s3ctl"
+    },
+    {
+      "name": "s3mirror",
+      "repo": "netspeedy/s3mirror",
+      "kicker": "BUCKET MIRRORING",
+      "accent": "#9B73FF",
+      "lang": ["Python", "python", "#5a9bd8"],
+      "body": "Mirrors every bucket between S3-compatible endpoints, copying only new or changed objects, in parallel.",
+      "facts": [["BUILT IN", "Python, with boto3"], ["SHIPS AS", "Homebrew tap and a GHCR image"]],
+      "install": ["brew tap netspeedy/s3mirror", "brew install s3mirror"],
+      "tap": "netspeedy/homebrew-s3mirror"
+    },
+    {
+      "name": "zquota",
+      "repo": "netspeedy/zquota",
+      "kicker": "QUOTA MONITORING",
+      "accent": "#2BD4BD",
+      "lang": ["Python", "python", "#5a9bd8"],
+      "body": "Shows Z.ai quota use and exactly when each window resets, with exit codes cron can act on.",
+      "facts": [["BUILT IN", "Python, standard library only"], ["SHIPS AS", "Homebrew tap, signed APT repository and pip"]],
+      "install": ["brew tap netspeedy/zquota", "brew install zquota"],
+      "tap": "netspeedy/homebrew-zquota"
+    },
+    {
+      "name": "joflux",
+      "repo": "netspeedy/joflux",
+      "kicker": "REPOSITORY MIGRATION",
+      "accent": "#F5B841",
+      "lang": ["Python", "python", "#5a9bd8"],
+      "body": "Moves a whole GitHub organisation into Forgejo or Codeberg in five stages, and never deletes the originals.",
+      "facts": [["BUILT IN", "Python, standard library only"], ["SHIPS AS", "Homebrew tap"]],
+      "install": ["brew tap netspeedy/joflux", "brew install joflux"],
+      "tap": "netspeedy/homebrew-joflux"
+    },
+    {
+      "name": "odysseusai",
+      "repo": "netspeedy/odysseusai",
+      "kicker": "CONTAINER IMAGES",
+      "accent": "#8C9BFF",
+      "lang": ["Docker", "docker", "#2496ed"],
+      "body": "Independent images of the Odysseus AI workspace, built from upstream and booted with the full stack before they're tagged.",
+      "facts": [["BUILT FROM", "Upstream Odysseus, rebuilt nightly"], ["SHIPS AS", "GHCR images and Compose files"]],
+      "install": ["git clone https://github.com/netspeedy/odysseusai.git", "cd odysseusai && cp .env.example .env && docker compose up -d"]
+    }
+  ]
+}

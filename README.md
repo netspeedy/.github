@@ -50,5 +50,17 @@ broader infrastructure and automation identity.
 | Path | Purpose |
 | --- | --- |
 | `profile/README.md` | Public GitHub organization profile rendered by GitHub. |
-| `profile/assets/netspeedy-banner.svg` | Self-contained public organization banner. |
-| `profile/assets/social-preview.png` | Repository social preview image for GitHub sharing. |
+| `profile/assets/` | Generated profile graphics, including the banner and the social preview. |
+| `scripts/readme/build_profile_graphics.py` | Builds the graphics and the profile's project grid. |
+| `scripts/readme/projects.json` | The public projects shown on the profile. |
+
+## Updating the Profile
+
+The graphics are generated, so change the generator or its data and rebuild rather than editing an SVG:
+
+```bash
+make readme-graphics
+make check
+```
+
+To add a public project, add an entry to `scripts/readme/projects.json` and rebuild. Its card, its place in the profile's grid, its Homebrew tap badge and the tool counts all follow. [AGENTS.md](AGENTS.md) has the fields and the full steps.
