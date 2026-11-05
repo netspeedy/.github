@@ -37,7 +37,7 @@ The build needs [uv](https://docs.astral.sh/uv/), network access the first time 
 
 To add a public project, add an entry to `scripts/readme/projects.json` and run `make readme-graphics`. Its card, its place in the grid, its tap badge, its tile in the signals graphic and both tool counts follow. [AGENTS.md](AGENTS.md#adding-or-changing-a-public-project) lists the fields.
 
-After the banner changes, upload `profile/assets/social-preview.png` under Settings, General, Social preview, as GitHub has no API for it.
+After the banner changes, upload `profile/assets/netspeedy-social-card.png` under Settings, General, Social preview, as GitHub has no API for it.
 
 ## Related
 

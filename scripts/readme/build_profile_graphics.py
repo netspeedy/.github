@@ -14,7 +14,8 @@
     project-<name>.svg          a card per public project, from projects.json
     site-kubertech-*.svg        the two KuberTech sites
     link-*.svg                  the maintainer's CV and GitHub
-    social-preview.svg/.png     the repository's 1280x640 social preview, from the banner
+    netspeedy-social-card.svg/.png
+                                the repository's 1280x640 social card, from the banner
 
 It also rewrites the Selected Public Work grid in profile/README.md, between the projects:start
 and projects:end markers, from projects.json. Adding a public repository is an entry there and a
@@ -1777,7 +1778,7 @@ def main() -> None:
         graphics.append((f"site-{site['name'].replace('.', '-')}.svg", lambda s=site: build_site(s)))
     for link in LINKS:
         graphics.append((f"{link['file']}.svg", lambda k=link: build_link(k)))
-    graphics.append(("social-preview.svg", lambda: build_social(banner)))
+    graphics.append(("netspeedy-social-card.svg", lambda: build_social(banner)))
     stale = []
     for name, build in graphics:
         svg = build()
@@ -1802,7 +1803,7 @@ def main() -> None:
         return
     update_readme(check=False)
     print("Updated the project grid in profile/README.md")
-    social = ASSETS / "social-preview.svg"
+    social = ASSETS / "netspeedy-social-card.svg"
     render_png(social, social.with_suffix(".png"), *SOCIAL)
     print(f"Wrote {social.with_suffix('.png').relative_to(ROOT)} ({SOCIAL[0]}x{SOCIAL[1]})")
 

@@ -66,7 +66,7 @@ To remove a project, delete its entry, rebuild, and delete its `project-<name>.s
 
 The other graphics change in `build_profile_graphics.py`: `FOCUS_AREAS`, `PRINCIPLES`, `SITES`, `LINKS`, `figures()` and the banner's `PILL`, `ROLE`, `TAGLINE`, `FOCUS` and `BANNER_SESSION`. Text is measured as it's built, so anything that won't fit stops the build with a message naming it. `NOW` is where the years ruler ends; move it on when the profile is next refreshed.
 
-Every rebuild also regenerates `profile/assets/social-preview.png` (1280x640) from the banner. GitHub has no API for social previews, so after the banner changes, upload it under Settings, General, Social preview.
+Every rebuild also regenerates `profile/assets/netspeedy-social-card.png` (1280x640) from the banner. GitHub has no API for social previews, so after the banner changes, upload it under Settings, General, Social preview.
 
 ## Content Standards
 
